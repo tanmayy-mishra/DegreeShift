@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"DegreeShift"</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+ 
+  
+  <div class="container">
+
+    
+    <div class="navbar__brand">
+      <img
+        src="Logo1.png"
+        alt="logo"
+        class="brand__logo"
+      />
+    </div>
+ 
+    
+    <div class="input-group">
+      <label for="inputTemperature">Input Temperature:</label>
+      <input type="number" id="inputTemperature" placeholder="Enter temperature" />
+    </div>
+    <div class="input-group">
+      <label for="inputUnit">Input Unit:</label>
+      <select id="inputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="outputTemperature">Output Temperature:</label>
+      <input type="number" id="outputTemperature" readonly />
+    </div>
+    <div class="input-group">
+      <label for="outputUnit">Output Unit:</label>
+      <select id="outputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    
+    <div id="geolocation" class="input-group">
+      <button id="getLocation">Get Current Temperature</button>
+    </div>
+
+    <img src="sun.png" class="weather-icon sun-icon" alt="Sun Icon">
+    <img src="rain.png" class="weather-icon rain-icon" alt="Rain Icon">
+    <img src="snowflake.png" class="weather-icon snow-icon" alt="Snow Icon">
+    <img src="cloud.png" class="weather-icon cloud-icon" alt="Cloud Icon">
+
+
+  <script src="script.js"></script>
+</body>
+<body>
+  <div class="chart-container">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="index.js"></script>
+</body>
+
+
+</html>

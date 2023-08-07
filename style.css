@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+  }
+  
+  .navbar__brand {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .brand__logo {
+   
+    width: 120%;
+    height: auto;
+  }
+  
+  .container {
+    background-color: var(--bg-color, #f3eeee);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 254, 254, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    flex: 1;
+    margin-right: 10px;
+    color: var(--text-color, #000);
+  }
+  
+  input, select {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: var(--text-color, #000);
+    background-color: var(--input-bg-color, #fff);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: var(--bg-color, #fff);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    flex: 1;
+    margin-right: 10px;
+    color: var(--text-color, #000);
+  }
+  
+  input, select {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: var(--text-color, #000);
+    background-color: var(--input-bg-color, #fff);
+  }
+  
+ 
+ 
+/* bg grad */
+body {
+    background: linear-gradient(to bottom, #0072ff, #ff6c00);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  /* icons*/
+  .weather-icon {
+    position: absolute;
+    width: 120px;
+    opacity:5; 
+    pointer-events: none;
+  }
+  
+  .sun-icon {
+    top: 20%;
+    left: 15%;
+  }
+  
+  .rain-icon {
+    bottom: 15%;
+    right: 10%;
+  }
+  
+  .snow-icon {
+    top: 20%;
+    right: 5%;
+  }
+  
+  .cloud-icon {
+    bottom: 10%;
+    left:5%;
+  }
+
+  
+  .chart-container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+
+  
